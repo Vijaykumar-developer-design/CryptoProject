@@ -10,12 +10,12 @@ app.use(cors());
 const port = process.env.PORT;
 const API_KEY = process.env.REACT_APP_API_URL;
 
-app.use(
-  cors({
-    origin: "https://crypto-devbytes-project.vercel.app/",
-    credentials: true,
-  })
-);
+// app.use(
+//   cors({
+//     origin: "https://crypto-devbytes-project.vercel.app/",
+//     credentials: true,
+//   })
+// );
 app.get("/api/cryptocurrencies", async (req, res) => {
   try {
     const response = await axios.get(
