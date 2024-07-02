@@ -17,6 +17,7 @@ const CryptoList = () => {
 
   useEffect(() => {
     if (!effectRan.current) {
+      getData();
       effectRan.current = true;
     } else {
       getData(); // Fetch data on page change
