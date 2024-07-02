@@ -1,0 +1,62 @@
+.crypto-converter {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.crypto-converter h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+.crypto-converter input,
+.crypto-converter select,
+.crypto-converter button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+.crypto-converter button {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  width: 120px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .crypto-converter {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .crypto-converter input,
+  .crypto-converter select,
+  .crypto-converter button {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .crypto-converter input {
+    width: 95%;
+  }
+}
+
+@media (max-width: 576px) {
+  .crypto-converter {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .crypto-converter input,
+  .crypto-converter select,
+  .crypto-converter button {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .crypto-converter input {
+    width: 95%;
+  }
+}

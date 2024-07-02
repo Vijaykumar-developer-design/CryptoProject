@@ -1,0 +1,15 @@
+.converter-page {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .converter-page {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .converter-page {
+    padding: 10px;
+  }
+}

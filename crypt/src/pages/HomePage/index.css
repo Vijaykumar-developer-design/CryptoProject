@@ -1,0 +1,15 @@
+.home-page {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .home-page {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-page {
+    padding: 10px;
+  }
+}
