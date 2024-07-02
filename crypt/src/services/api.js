@@ -1,4 +1,4 @@
-const serverUrl = "http://localhost:5000/api";
+const serverUrl = "https://crypto-devbytes-server.vercel.app/api";
 export const fetchCryptocurrencies = async () => {
   const response = await fetch(`${serverUrl}/cryptocurrencies`);
   const data = await response.json();
